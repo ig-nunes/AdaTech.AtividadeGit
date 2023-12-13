@@ -37,5 +37,10 @@ namespace Principal
             _salario = salario;
             _dataDeAdmissao = dataDeAdmissao;
         }
+
+        public override string ToString()
+        {
+            return $"Funcionário {Nome} | ID {Id}\nCargo: {Cargo}";
+        }
     }
 }
