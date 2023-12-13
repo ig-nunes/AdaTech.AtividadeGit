@@ -5,8 +5,7 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
-            var daisy = new Daisy();
-            daisy.Says("Olá, Mundo");
+            var professor = new Professor("Fulano", "C-Sharp", 5000.0);
         }
     }
 }
